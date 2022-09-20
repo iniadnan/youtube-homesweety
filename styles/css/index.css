@@ -96,3 +96,23 @@
         right: 0px;
     }
 }
+
+@media (max-width: 768px) {
+    @keyframes circle-3 {
+        0% {
+            bottom: -55%;
+            right: -30px;
+            opacity: 0;
+        }
+
+        25% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 1;
+            bottom: -35%;
+            right: -15px;
+        }
+    }
+}
