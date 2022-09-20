@@ -721,20 +721,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 100px;
 }
 
-.pb-\[120px\] {
-  padding-bottom: 120px;
-}
-
-.pb-\[260px\] {
-  padding-bottom: 260px;
+.pb-\[40px\] {
+  padding-bottom: 40px;
 }
 
 .pt-\[80px\] {
   padding-top: 80px;
 }
 
-.pb-\[40px\] {
-  padding-bottom: 40px;
+.pb-\[260px\] {
+  padding-bottom: 260px;
 }
 
 .text-right {
@@ -814,6 +810,10 @@ html {
 body {
   background-color: #06113C;
   overflow-x: hidden;
+}
+
+a {
+  transition: 0.125s ease-in;
 }
 
 /* width */

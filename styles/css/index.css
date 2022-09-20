@@ -1,0 +1,98 @@
+.circle-1 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    border-radius: 50%;
+    opacity: 0;
+    background: linear-gradient(223.86deg, #00D1FF 0%, rgba(0, 209, 255, 0) 87.78%);
+    filter: blur(2px);
+    animation-name: circle-1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.circle-2 {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 37%;
+    left: -60px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    opacity: 0;
+    background: linear-gradient(101.22deg, rgba(0, 209, 255, 0.25) 5.63%, rgba(0, 209, 255, 0) 114.91%);
+    filter: blur(2px);
+    animation-name: circle-2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.circle-3 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 0%;
+    right: 0px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    opacity: 0;
+    background: linear-gradient(324.54deg, rgba(0, 133, 255, 0.7) -4.1%, rgba(0, 133, 255, 0) 86.14%);
+    filter: blur(2px);
+    animation-name: circle-3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes circle-1 {
+    0% {
+        top: 30px;
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        top: -40px;
+    }
+}
+
+@keyframes circle-2 {
+    0% {
+        top: 47%;
+        left: -100px;
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        top: 37%;
+        left: -60px;
+    }
+}
+
+@keyframes circle-3 {
+    0% {
+        bottom: -15%;
+        right: -30px;
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 0%;
+        right: 0px;
+    }
+}
